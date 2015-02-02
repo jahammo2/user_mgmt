@@ -1,0 +1,252 @@
+/*************************************************************
+***** BODY, GENERAL, AND RESET *********
+*************************************************************/
+
+@import url("reset.css");
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #452948;
+}
+
+.wrapper {
+	width: 400px;
+	height: 72%;
+	margin: 0 auto;
+	background: #E6E6E6;
+	font-family: 'montserrat';
+	padding: 100px;
+	overflow: auto;
+}
+
+li div:nth-child(2),
+.addItem {
+	box-shadow: 0px 1px 1px #B3B3B3;
+}
+
+/*************************************************************
+***** UL *********
+*************************************************************/
+
+ul {
+	margin-bottom: -4px;
+}
+
+ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+/*The picture parent div*/
+li div:nth-child(1) {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	margin: 4px;
+}
+
+li:last-child div:nth-child(1) {
+}
+
+/*The gray overlay*/
+li div:nth-child(1) div {
+	left: -5%;
+	top: -5%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	background: lightgray;
+	opacity: .15;
+	border-radius: 5%;
+}
+
+/*The text div*/
+li div:nth-child(2) {
+	margin: 4px;
+	background: white;
+	width: 200px;
+	overflow: scroll;
+	box-shadow: 0px 0px 1px #B3B3B3;
+}
+
+/*The X*/
+li div:nth-child(3) {
+	position: absolute;
+	right: 61px;
+	top: 7px;
+/*	cursor: pointer;*/
+	z-index: 100;
+	font-size: .5em;
+	color: #00D6AC;
+}
+
+li div:nth-child(2) p {
+	padding-left: 10px;
+}
+
+li div:nth-child(2) p:nth-child(1) {
+	padding-top: 22px;
+	font-weight: bold;
+	color: #8F8F8F;
+}
+
+li div:nth-child(2) p:nth-child(2) {
+	font-size: .8em;
+	padding-top: 6px;
+	color: #D1D1D1;
+}
+
+li div input {
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	right: -3px;
+	top: -2px;
+}
+
+ul img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+	outline: none;
+}
+
+.people {
+	
+}
+
+
+
+/*************************************************************
+***** FORM *********
+*************************************************************/
+
+.addItem {
+	margin-top: -8px;
+	border: none;
+	width: 200px;
+	margin-left: 88px;
+	color: #B3B3B3;
+	background: #EFEFEF;
+	padding: 12px;
+	font-size: 1em;
+/*	letter-spacing: 1px;
+	font-weight: bold;*/
+/*	visibility: hidden;*/
+	position: absolute;
+}
+
+.chooser {
+	width: 288px;
+	margin: 8px auto 0;
+	position: relative;
+}
+
+.newItemForm {
+	background: #EFEFEF;
+}
+
+.chosen-avatar {
+	width: 65px;
+	height: 65px;
+/*	visibility: hidden;*/
+	border: none;
+	opacity: 0;
+}
+
+.text-inputs {
+	margin-top: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;	
+}
+
+.text-input {
+	border: none;
+	margin: 3px 0 2px 0;
+	padding: 7px;
+	width: 160px;
+	font-family: 'montserrat';
+}
+
+.name-text-input {
+	margin-top: 8px;
+}
+
+/*.email-text-input {
+	
+}*/
+
+.svg-bg {
+	margin: 10px 0 0 0;
+	width: 65px;
+	height: 65px;
+	z-index: 100;
+	position: relative;
+	background: #FFF;
+}
+
+.svg-face {
+	left: 0;
+	width: 107%;
+	height: 120%;
+	position: absolute;
+	fill: #8F8F8F;
+}
+
+.first-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;	
+}
+
+.second-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 280px;
+	background: white;
+	margin-top: 4px;
+	padding: 4px;
+}
+
+.file-maker {
+	width: 100px;
+	opacity: 0;
+}
+
+.file-link {
+	text-decoration: none;
+	background: #B3B3B3;
+	font-size: .75em;
+	padding: 5px;
+	margin-bottom: -1px;
+	margin-right: 2px;
+	color: white;
+}
+
+.submit-button {
+	margin-right: -4px;
+}
+
+.second-row-input {
+	background: #B3B3B3;
+	color: white;
+	border: none;
+	font-family: 'montserrat';
+}
+
+/******************** comment *******************************/
+
+/*************************************************************
+***** comment *********
+*************************************************************/
