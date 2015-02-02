@@ -1,4 +1,4 @@
-(function () {
+// (function () {
 
 //////////////////////////////////////////////////////////////
 /////// IMPORTANT VARIABLES ///////
@@ -170,7 +170,7 @@ submitButton.onclick = function (event) {
     createPerson();
 }
 
-})();
+// })();
 
 
 
